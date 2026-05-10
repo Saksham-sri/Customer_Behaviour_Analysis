@@ -1,72 +1,89 @@
 # Customer_Behaviour_Analysis
-Overview
+## Overview
+This project demonstrates an end-to-end Data Analytics workflow using Python, SQL, and Power BI. The project includes data loading, exploratory data analysis (EDA), data cleaning, SQL analysis using PostgreSQL/MySQL/SQL Server, dashboard creation in Power BI, report generation, and presentation creation using Gamma.
 
-This project demonstrates an end-to-end Data Analytics workflow, starting from data loading and preprocessing in Python to creating interactive dashboards and business insights. The project includes Exploratory Data Analysis (EDA), data cleaning, SQL-based analysis, dashboard development in Power BI, and final reporting & presentation creation using Gamma.
+The goal of this project is to transform raw data into meaningful business insights and interactive visualizations.
 
-The objective of this project is to transform raw data into meaningful insights that support data-driven decision-making.
+---
 
-Dataset
-Dataset Type: CSV / Excel / Database Table
-Domain: (E-commerce / Sales / Customer Analytics / etc.)
-Features: Customer details, sales information, transactions, product categories, revenue metrics, etc.
-Tools & Technologies Used
-Programming & Analysis
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Database & SQL
-MySQL
-SQL Server
-Visualization 
-Power BI
-Other Tools
-Google Collab Notebook
-Excel / CSV Files
-Project Workflow
-1. Data Loading
-Imported dataset into Python using Pandas
-Checked dataset structure and datatypes
-Identified missing and duplicate values
-2. Exploratory Data Analysis (EDA)
-Performed statistical analysis
-Analyzed trends, distributions, and relationships
-Created visualizations for better understanding
-3. Data Cleaning
-Handled missing values
-Removed duplicates
-Fixed inconsistent data formats
-Converted datatypes where required
-4. SQL Analysis
-Imported cleaned data into:
-MySQL
-SQL Server
-Wrote SQL queries for:
-Aggregations
-Joins
-Filtering
-Ranking
-KPI calculations
-Business insights
-5. Power BI Dashboard
+## Dataset
+- Dataset Type: CSV / Excel / Database Table
+- Domain: E-commerce / Sales / Customer Analytics
+- Records: Multiple rows and columns containing customer, product, and sales information
 
-Built an interactive dashboard containing:
+---
 
-Sales Overview
-Revenue Trends
-Customer Insights
-Product Performance
-KPI Cards
-Filters & Slicers
-Dashboard Features
-Interactive visualizations
-Dynamic filtering
-Business KPI tracking
-Trend analysis
-Clean and user-friendly interface
-Results & Insights
-Identified top-performing products/categories
-Analyzed customer purchasing behavior
-Discovered sales trends and revenue patterns
-Generated actionable business insights using SQL and Power BI
+## Tools & Technologies Used
+
+### Programming & Analysis
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Database & SQL
+- MySQL
+### Visualization 
+- Power BI
+  
+
+### Other Tools
+- Google Collab Notebook
+- Excel
+
+---
+
+## Project Workflow
+
+### 1. Data Loading
+- Imported dataset using Pandas
+- Checked data types and dataset structure
+- Identified missing and duplicate values
+
+### 2. Exploratory Data Analysis (EDA)
+- Performed statistical analysis
+- Analyzed trends and relationships
+- Created visualizations for better understanding
+
+### 3. Data Cleaning
+- Handled missing values
+- Removed duplicate records
+- Fixed inconsistent data formats
+- Converted columns into appropriate data types
+
+### 4. SQL Analysis
+- Imported cleaned data into MySQl Server
+- Performed:
+  - Joins
+  - Aggregations
+  - Filtering
+  - Ranking
+  - KPI calculations
+  - Business analysis queries
+
+### 5. Power BI Dashboard
+Created an interactive dashboard containing:
+- Sales Overview
+- Revenue Trends
+- Customer Insights
+- Product Performance
+- KPI Metrics
+- Interactive Filters & Slicers
+
+---
+
+## Dashboard Features
+- Interactive Visualizations
+- Dynamic Filtering
+- KPI Tracking
+- Trend Analysis
+- User-Friendly Interface
+
+---
+
+## Results & Insights
+- Identified top-performing products
+- Analyzed customer purchasing behavior
+- Discovered revenue and sales trends
+- Generated business insights using SQL and Power BI
